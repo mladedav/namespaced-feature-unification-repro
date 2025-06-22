@@ -1,0 +1,11 @@
+[package]
+name = "b"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../common", optional = true }
+
+[features]
+# This would have worked
+# default = ["dep:common"]
