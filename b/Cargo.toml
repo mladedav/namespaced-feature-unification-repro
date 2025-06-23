@@ -7,5 +7,5 @@ edition = "2024"
 common = { path = "../common", optional = true }
 
 [features]
-# This would have worked
-# default = ["dep:common"]
+default = []
+non-default = ["dep:common"]
